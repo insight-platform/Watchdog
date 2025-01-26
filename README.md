@@ -1,4 +1,7 @@
 # Watchdog
+
+**The watchdog service was merged in [Savant](https://github.com/insight-platform/Savant). This repo is switched to read-only public archive.**
+
 This service watches the health of pipeline by monitoring one or more buffers in parallel.
 It will stop or restart designated pipeline services if the buffer queue length exceeds a threshold value or the time since the last output or input message exceeds a specified time. 
 Queue monitoring helps detect the slow processing of messages, and ingress and egress monitoring is helpful in detecting how pipeline services are processing messages. 
